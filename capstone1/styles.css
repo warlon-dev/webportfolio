@@ -1,0 +1,56 @@
+:root {
+	--default: #10101A;
+	--subcolor: #1ABC9C;
+}
+
+.bg-darker {
+	background-color: var(--default);
+	
+}
+.bg-green {
+	background-color: var(--subcolor);
+}
+
+#navbar {
+	background-color: var(--default);
+}
+
+.header-text {
+	font-family: 'Black Ops One', cursive;
+	color: white;
+	font-size: 3rem;
+	margin-top: 10rem;
+}
+
+.subcolor {
+	color:  var(subcolor);
+}
+
+.btn-outline-subcolor{
+	color: var(--subcolor);
+	border-color: var(--subcolor);
+}
+.btn-outline-subcolor:hover{
+	color: white;
+	background-color: var(--subcolor);
+}
+
+.btn-outline-subcolor:active{
+	color: white;
+	background-color: var(--subcolor);
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:  'Shanti', sans-serif;
+}
+
+p, li{
+	font-family:  'Roboto', sans-serif;
+}
+
+.header-gradient {
+	background: linear-gradient(-45deg, #6bc5f8, #cf59e6, #6bc5f8, #cf59e6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: gradient 3s ease infinite;
+	background-size: 400% 400%;
+}
