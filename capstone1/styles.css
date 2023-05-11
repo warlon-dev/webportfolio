@@ -11,16 +11,12 @@
 	background-color: var(--subcolor);
 }
 
-#navbar {
-	background-color: var(--default);
-}
-
 .header-text {
 	font-family: 'Black Ops One', cursive;
 	color: white;
-	font-size: 3rem;
-	margin-top: 10rem;
+	font-size: 2.5rem;
 }
+
 
 .subcolor {
 	color:  var(subcolor);
@@ -39,7 +35,7 @@
 	color: white;
 	background-color: var(--subcolor);
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, .header-subtext{
 	font-family:  'Shanti', sans-serif;
 }
 
@@ -48,9 +44,28 @@ p, li{
 }
 
 .header-gradient {
-	background: linear-gradient(-45deg, #6bc5f8, #cf59e6, #6bc5f8, #cf59e6);
+	background: linear-gradient(-45deg, var(--subcolor), #6bc5f8, var(--subcolor), #6bc5f8);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: gradient 3s ease infinite;
+	-webkit-animation: gradient 2s ease infinite;
 	background-size: 400% 400%;
+}	
+#navbar {
+	background-color: var(--default);
+}
+/*
+#landing {
+	background-image: url("./images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+/*#landing-cover{
+	background-color: rgba(16,16,26,0.8);
+}
+*/
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
